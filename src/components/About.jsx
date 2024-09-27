@@ -20,8 +20,8 @@ function About() {
           <p className="text-lg mb-4">
             Hello, I'm Tamir, a passionate web developer with a keen eye for
             the MERN Stack. With a background in IT, I strive to create
-            impactful and visually stunning software solutions that leave a
-            lasting impression.
+            impactful and visually stunning software solutions
+           
           </p>
           <h2 className="text-green-600 font-semibold text-xl">
             Education & Training

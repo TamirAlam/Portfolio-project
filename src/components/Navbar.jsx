@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import photo from "../assets/photo.jpeg";
-import icon from "../assets/icon.jpeg"
+import icon from "../assets/icon.jpeg";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-scroll";
@@ -26,13 +26,13 @@ function Navbar() {
   ];
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-[#00264d]">
+      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-[#2121] text-green-500  font-extrabold">
         <div className="flex justify-between items-center h-16">
           <div className=" flex space-x-2">
             <img src={icon} className="h-12 w-12 rounded-full" alt="" />
             <h1 className="font-semibold text-3xl cursor-pointer">
               T<span className="text-green-500 text-3xl">A</span>
-              <p className="text-sm">PortFolio</p>
+              <p className="text-sm">Portfolio</p>
             </h1>
           </div>
           {/* desktop navbar */}

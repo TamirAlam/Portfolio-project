@@ -2,6 +2,9 @@ import React from "react";
 import Reactjs from "../assets/logo192.png";
 import javascript from "../assets/javascript.png";
 import reactjs from "../assets/reactjs.png";
+import github1 from "../assets/github1.jpeg";
+import leetcode from "../assets/leetcode.jpeg";
+import html from "../assets/html.png";
 
 function Project() {
   const cardItem = [
@@ -28,6 +31,27 @@ function Project() {
       sourceCodeLink: "https://food-project-youi.vercel.app//", // Unique link for Java project
       // Unique live demo lin
     },
+    {
+      id: 4,
+      logo:html,
+      name:"html.png",
+      sourceCodeLink: "https://food-project-youi.vercel.app//",
+      // Unique live demo lin
+    },
+    {
+      id: 5,
+      logo:github1,
+      name: "github1.jpeg",
+      sourceCodeLink: "https://github.com/TamirAlam",
+      // Unique live demo lin
+    },
+    {
+      id: 6,
+      logo: leetcode,
+      name: "leetcode.jpeg",
+      sourceCodeLink: "https://leetcode.com/u/tamiralam2/",
+      // Unique live demo lin
+    },
   ];
 
   return (
@@ -46,7 +70,7 @@ function Project() {
           {cardItem.map(
             ({ id, logo, name, videoLink, sourceCodeLink, liveDemoLink }) => (
               <div
-                className="md:w-[300px] md:h-[340px] border-[2px] rounded-lg shadow-lg p-5 cursor-pointer hover:scale-110 duration-300"
+                className="md:w-[300px] md:h-[330px] border-[2px] rounded-lg shadow-lg p-5 cursor-pointer hover:scale-110 duration-300"
                 key={id}
               >
                 <img
